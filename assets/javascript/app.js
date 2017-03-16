@@ -33,7 +33,7 @@ $(document).ready(function(){
       // Getting and storing the data-toon property value from the button
     var toonChar = $(this).attr("data-toon");
       // Constructing a queryURL using the cartoon character name
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         toonChar + "&api_key=dc6zaTOxFJmzC&limit=10";
       // Making an AJAX request with the queryURL
     $.ajax({
