@@ -1,7 +1,7 @@
 
   var topics = ["Bugs Bunny", "Porky Pig", "Daffy Duck", "Elmer Fudd",
      "Tweety", "Dick Dastardly", "Muttley", "Penelope Pitstop", "Scooby Doo",
-     "Witch Hazel", "Granny", "Bullwinkle", "Pepe LePeuw", "Wilma Flintstone"]
+     "Witch Hazel", "Bullwinkle", "Pepe LePeuw", "Wilma Flintstone"]
 
   renderButtons();
 
