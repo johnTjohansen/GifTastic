@@ -28,7 +28,7 @@
 
 $(document).ready(function(){
 // Event listener on Cartoon character buttons.
-  $(".toonChar").on("click", function() {
+  $("#buttons").on("click", ".toonChar", function() {
     console.log("button has clicked");
       // Getting and storing the data-toon property value from the button
     var toonChar = $(this).attr("data-toon");
